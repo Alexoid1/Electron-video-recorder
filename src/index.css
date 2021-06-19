@@ -3,4 +3,73 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  background: rgb(43,46,59);
+}
+
+h1{
+  color: rgb(159,234,249);
+  text-align: center;
+}
+
+hr {
+  background: rgb(159,234,249);
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+.start, .stop, .danger {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.start {
+  background: rgb(42, 226, 155);
+  color: white;
+  transition: ease-out 0.5s;
+}
+
+.start:hover {
+  background: rgb(37, 189, 131);
+  transform: scale(1.1);
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+
+.stop:hover {
+  background:rgb(219, 216, 38);;
+  transform: scale(1.1);
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+
+.stop {
+  background: rgb(248, 245, 51);
+  color: black;
+  transition: ease-out 0.5s;
+}
+
+.danger {
+  background: rgb(228, 32, 32);
+  color: white;
+}
+
+.danger:hover {
+  background: rgb(228, 32, 32);
+  color: white;
+}
+
+.select {
+  background: none;
+  color: aliceblue;
+  font-size: 18px;
+  border: none;
+  text-decoration: underline;
+}
+
+.select:hover {
+  cursor: pointer;
 }

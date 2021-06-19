@@ -15,7 +15,7 @@ const startBtn = document.getElementById('startBtn');
 startBtn.onclick = e => {
   recordedChunks=[]
   mediaRecorder.start();
-  startBtn.classList.add('is-danger');
+  startBtn.classList.add('danger');
   startBtn.innerText = 'Recording';
 };
 
@@ -23,7 +23,7 @@ const stopBtn = document.getElementById('stopBtn');
 
 stopBtn.onclick = e => {
   mediaRecorder.stop();
-  startBtn.classList.remove('is-danger');
+  startBtn.classList.remove('danger');
   startBtn.innerText = 'Start';
  
 };
@@ -61,10 +61,10 @@ async function selectSource(source) {
       mandatory: {
         chromeMediaSource: 'desktop',
         chromeMediaSourceId: source.id,
-        minWidth: 1280,
-        maxWidth: 1280,
-        minHeight: 720,
-        maxHeight: 720
+        minWidth: 430,
+        maxWidth: 430,
+        minHeight: 240,
+        maxHeight: 240
       }
     }
   };
