@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+To install the app in your machine follow this simple steps:
 
 - Go to https://github.com/Alexoid1/Electron-video-recorder and clone the repo using: <br>
 `https://github.com/Alexoid1/Electron-video-recorder.git` in your terminal.
