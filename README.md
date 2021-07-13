@@ -24,7 +24,7 @@ To install the app in your machine follow this simple steps:
 
 - Go to https://github.com/Alexoid1/Electron-video-recorder and clone the repo using: <br>
 `https://github.com/Alexoid1/Electron-video-recorder.git` in your terminal.
-- Cd file
+- Cd ./electron-video-recorder
 - Run `npm i` in your terminal.
 - Run `npm run make` in your terminal.
 - Cd /out/make/squirrel.['system']
