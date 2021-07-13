@@ -12,6 +12,11 @@ Additional description about the project and its features.
 - Node
 - Css
 
+### Prerequisites
+
+- Node
+- Download the code from repository (https://github.com/Alexoid1/Electron-video-recorder)
+
 
 ## Getting Started
 
@@ -25,15 +30,6 @@ To get a local copy up and running follow these simple example steps:
 - Cd /out/make/squirrel.['system']
 - Run  Setup.exe
 
-
-
-
-To get a local copy  and to set it up and running follow these simple example steps.
-
-### Prerequisites
-
-- Node
-- Download the code from repository (https://github.com/Alexoid1/Electron-video-recorder)
 
 
 ## Author
