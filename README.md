@@ -1,6 +1,6 @@
 # Electron Video Recorder
 
-A desktop app to record videos.
+A desktop app screen-recorder.
 
 ![screenshot](./screen.png)
 
